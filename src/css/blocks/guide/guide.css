@@ -1,0 +1,44 @@
+.guide {
+  text-align: center;
+  color: var(--color-dark-blue);
+}
+
+.guide__layout {
+  padding: 3.125rem 0;
+}
+
+.guide__card {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 0.43rem;
+  background-color: var(--color-light-blue);
+  padding: 1.43rem 0.8125rem;
+  border-radius: var(--border-radius-100);
+  box-shadow: 0 6px 0 0 var(--color-dark-blue);
+}
+
+.guide__img {
+  border-radius: var(--border-radius-100);
+}
+
+.guide__img,
+.guide__content {
+  width: 100%;
+  flex-basis: 50%;
+}
+
+.guide__title {
+  font-size: var(--font-size-200);
+  margin-bottom: 0.875rem;
+}
+
+.guide__desc {
+  font-style: italic;
+  margin-bottom: 1.625rem;
+}
+
+.guide__name {
+  font-weight: var(--font-weight-400);
+}
