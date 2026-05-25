@@ -7,5 +7,7 @@
 
 .activity__title {
   font-size: var(--font-size-100);
+  margin: 0 auto;
   margin-bottom: 1rem;
+  max-width: 197px;
 }
