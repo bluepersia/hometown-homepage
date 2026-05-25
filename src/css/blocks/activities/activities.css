@@ -1,0 +1,23 @@
+.activities {
+  background-color: var(--color-light-green);
+  text-align: center;
+  padding: 2.43rem 2.125rem;
+  color: var(--color-dark-blue);
+}
+
+.activities__title {
+  font-size: var(--font-size-200);
+  margin-bottom: 3.375rem;
+}
+
+.activities__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 652px;
+  margin: 0 auto;
+  column-gap: 1rem;
+}
+
+.activities__item {
+  flex-basis: 33%;
+}
