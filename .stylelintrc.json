@@ -6,7 +6,7 @@
     "scale-unlimited/declaration-strict-value": [
       [
         "/color/",
-        "/background/",
+        "/background-color/",
         "font-family",
         "font-size",
         "font-weight",
