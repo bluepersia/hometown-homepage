@@ -22,4 +22,5 @@
 
   /* Border Radius */
   --border-radius-100: 10px;
+  --border-radius-circle: 50%;
 }
