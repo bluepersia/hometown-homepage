@@ -1,0 +1,40 @@
+.guide__layout {
+  padding: 3.125rem 2.12rem;
+}
+
+.guide__inner,
+.guide__img {
+  border-radius: var(--border-radius-100);
+}
+
+.guide__inner {
+  color: var(--color-dark-blue);
+  text-align: center;
+  max-width: 400px;
+  margin-inline: auto;
+  background-color: var(--color-light-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.43rem;
+  padding: 1.43rem 0.81rem;
+}
+
+.guide__img,
+.guide__content {
+  flex-basis: 50%;
+}
+
+.guide__title {
+  font-size: var(--font-size-300);
+  margin-bottom: 0.875rem;
+}
+
+.guide__description {
+  font-style: italic;
+  margin-bottom: 1.6rem;
+}
+
+.guide__name {
+  font-weight: var(--font-weight-400);
+}
