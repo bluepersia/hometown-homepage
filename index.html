@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="src/styles/utilities.css" />
 
     <link rel="stylesheet" href="src/styles/blocks/hero/hero.css" />
+    <link rel="stylesheet" href="src/styles/blocks/activities/activities.css" />
+    <link rel="stylesheet" href="src/styles/blocks/activity/activity.css" />
   </head>
 
   <body>
@@ -20,5 +22,49 @@
         Oslo.
       </p>
     </header>
+
+    <main>
+      <section class="activities">
+        <h2 class="activities__title">Top three activities to do at Torshov</h2>
+        <ul class="activities__list reset-list">
+          <li class="activities__item activity">
+            <img
+              class="activity__img"
+              src="assets/images/theatre.jpg"
+              alt="Front façade of Torshov Theatre (Soria Moria), a curved building with tall white columns facing a city street."
+            />
+            <h3 class="activity__title">Attend a show or a concert</h3>
+            <p class="activity__desc">
+              The Torshov Theatre is a great place to spend your night out.
+            </p>
+          </li>
+
+          <li class="activities__item activity">
+            <img
+              class="activity__img"
+              src="assets/images/park.jpg"
+              alt="Stone fountain with a small statue in a shallow pond, surrounded by trees and grassy parkland."
+            />
+            <h3 class="activity__title">Go for a piknic in the local park</h3>
+            <p class="activity__desc">
+              The Torshov Park is perfect for piknic, getting some tan, or just
+              chilling out.
+            </p>
+          </li>
+
+          <li class="activities__item activity">
+            <img
+              class="activity__img"
+              src="assets/images/sports.jpg"
+              alt="Volleyball resting on a sandy beach volleyball court with a blurred net and player in the background."
+            />
+            <h3 class="activity__title">Play sports at the Lilleborg field</h3>
+            <p class="activity__desc">
+              Play volleyball, football, basket ball or lift some weights.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
