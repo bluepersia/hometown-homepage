@@ -1,0 +1,45 @@
+.guide {
+  text-align: center;
+  color: var(--color-dark-blue);
+}
+
+.guide__layout {
+  padding: 3.125rem 2rem;
+}
+
+.guide__main {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.43rem;
+  background-color: var(--color-light-blue);
+  padding: 1.43rem 0.81rem;
+  border-radius: var(--radius-100);
+}
+
+.guide__layout .guide__main {
+  margin: 0 auto;
+}
+
+.guide__img,
+.guide__content {
+  flex-basis: 50%;
+}
+
+.guide__img {
+  border-radius: var(--radius-100);
+}
+
+.guide__title {
+  font-size: var(--font-size-300);
+  margin-bottom: 0.875rem;
+}
+
+.guide__quote {
+  font-style: italic;
+  margin-bottom: 1.625rem;
+}
+
+.guide__name {
+  font-weight: var(--font-weight-400);
+}
