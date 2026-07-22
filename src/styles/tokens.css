@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+  --color-gray: #c4c4c4;
+  --color-white: #fff;
+  --color-light-green: #f1faee;
+  --color-light-blue: #a8dadc;
+  --color-blue: #457b9d;
+  --color-dark-blue: #1d3557;
+
+  /* Fonts */
+  --font-arial: arial, helvetica, sans-serif;
+
+  /* Font sizes */
+  --font-size-100: 1rem;
+  --font-size-200: 1.17rem;
+  --font-size-300: 1.5rem;
+  --font-size-400: 2rem;
+
+  /* Font weights */
+  --font-weight-100: 400;
+  --font-weight-400: 700;
+
+  /* Radius */
+  --radius-100: 10px;
+}
