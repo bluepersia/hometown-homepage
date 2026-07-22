@@ -1,0 +1,20 @@
+.activities {
+  text-align: center;
+  padding: 2.375rem 2rem;
+  color: var(--color-dark-blue);
+  background-color: var(--color-light-green);
+}
+
+.activities__title {
+  margin-bottom: 3.375rem;
+}
+
+.activities__list {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 2rem;
+}
+
+.activities__item {
+  flex-basis: 198px;
+}
